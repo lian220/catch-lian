@@ -4,3 +4,12 @@ author_profile: true
 sidebar:
     nav: "sidebar-category"
 ---
+<h2>Recent Posts</h2>
+<ul class="recent-posts">
+  {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.date | date: "%B %d, %Y" }}</p>
+    </li>
+  {% endfor %}
+</ul>

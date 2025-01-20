@@ -1,3 +1,5 @@
-gem 'google-protobuf', '~> 3.21'
 source "https://rubygems.org"
-gemspec
+
+gem "jekyll", "~> 4.3.2"
+gem "jekyll-paginate"
+gem "minimal-mistakes-jekyll" # 필요한 경우 추가
