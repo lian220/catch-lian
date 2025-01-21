@@ -17,7 +17,9 @@ sidebar-category:
     children:
       - title: "블로그"
         url: "/blog"
-      - title: "카테고리B"
-        url:  "/CategoryB"
-      - title: "카테고리C"
-        url:  "/CategoryC"
+      - title: "spring"
+        url:  "/spring"
+      - title: "Java/Kotlin"
+        url:  "/java"
+      - title: "infra"
+        url:  "/infra"
