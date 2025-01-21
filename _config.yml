@@ -116,7 +116,7 @@ author:
   name             : "Lian"
   avatar           : "./assets/images/profile_image.png"
   bio              : "Java/Kotlin과 Spring 기반 웹서비스 개발에 주력하며, 문제 해결과 효율적인 협업을 중시하는 6년 차 개발자 임도영입니다."
-  location         : "Somewhere"
+  location         : "머스트잇"
   email            :
   links:
     - label: "Email"

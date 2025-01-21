@@ -559,3 +559,32 @@ body {
     }
   }
 }
+
+.recent-posts {
+  margin: 0;
+  padding: 0;
+  list-style: none; /* 기본 리스트 스타일 제거 */
+}
+
+.recent-posts li {
+  display: flex; /* 제목과 날짜를 한 줄로 정렬 */
+  align-items: baseline; /* 제목과 날짜를 같은 라인에 배치 */
+  justify-content: space-between; /* 제목과 날짜 간 간격 유지 */
+  margin-bottom: 3px; /* 리스트 항목 간 간격 줄임 */
+}
+.recent-posts li > p{
+  font-size: 12px;
+}
+
+.recent-posts .post-title {
+  font-size: 16px; /* 제목 글씨 크기 유지 */
+  font-weight: normal; /* 제목 굵기 기본값 유지 */
+  color: #000; /* 제목 색상 */
+  text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.recent-posts .post-date {
+  font-size: 12px; /* 날짜 글씨 크기 작게 설정 */
+  color: #666; /* 날짜 색상 */
+  margin-left: 10px; /* 제목과 날짜 간의 간격 */
+}
